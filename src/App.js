@@ -35,9 +35,7 @@ componentDidMount() {
     } else{
       this.setState({ currentUser: userAuth });
     }
-
   })
-  
 }
 
 componentWillUnmount(){
