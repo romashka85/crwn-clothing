@@ -52,7 +52,6 @@ componentWillUnmount(){
             (<Redirect to='/' />) : <SignInAndSignUpPage />}/>
         </Switch>
       </div>
-      
     );
   }
 }

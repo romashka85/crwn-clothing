@@ -1,0 +1,164 @@
+.completed-audit{
+  background: var(--background-tertiary);
+  min-width: 74rem;
+}
+
+.completed-audit__header {
+ display: flex;
+ flex-direction: row;
+ padding: 2em 1em;
+ box-shadow: 0px 3px 6px var(--box-shadow)
+}
+
+.completed-audit__table {
+  display: grid;
+  grid-template-rows: 1fr;
+  width: 35em;
+  border: 1px solid var(--text-color-secondary);
+}
+
+.completed-audit__table-row {
+  display: grid;
+  grid-template-columns: 12rem 20rem;
+  height: 2rem;
+  border-bottom: 0.25px solid var(--text-color-secondary);
+  padding: 0.5rem;
+  width: 100%;
+  color: var(--text-color-primary);
+  font-family: "CiscoSans Regular", sans-serif;
+}
+
+.completed-audit__table-value{
+  font-family: "CiscoSans Regular", sans-serif;
+  color: var(--text-color-secondary);
+  opacity: 1;
+}
+
+.completed-audit__button-container{
+  display: flex;
+  align-items: flex-end;
+  width: 10em;
+  margin: 0 3em 0 2em;
+  position: relative;
+}
+
+.completed-audit__dispute-button{
+  background-color: #EB0F31;
+  border: none;
+  color: var(--text-color-white);
+  text-transform: uppercase;
+  font-size: 12px;
+  font-family: "CiscoSans Bold", sans-serif;
+  border-radius: 3px;
+  letter-spacing: 1.5px;
+  box-shadow: none;
+  width: 9rem;
+  height: 2.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: background 0.8s;
+  /*display: none;    -----commented out until finalized disputes*/
+}
+
+.completed-audit__dispute-button:hover{
+  background-color: #fb8ca0;
+  color: var(--text-color-white);
+  box-shadow: 1px 3px 5px #EB0F31 ;
+  border: none;
+}
+
+.completed-audit__dispute-button.submit{
+  background-color: #08e108e8;
+  box-shadow: 1px 3px 5px #8cfbaee8;
+}
+.completed-audit__dispute-button.submit:hover{
+  background-color: #75e39d;
+  color: var(--text-color-white);
+  box-shadow: 1px 3px 5px #08e108e8 ;
+}
+
+.completed-audit__table-label {
+  font-weight: 600;
+}
+
+.completed-audit__table-row:last-child {
+  border: 0;
+}
+
+.completed-audit__overview {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 2rem;
+}
+
+.completed-audit__overview h1{
+  font-family: "CiscoSans Thin", sans-serif;
+  font-size: 1.8rem;
+  letter-spacing: 0;
+  color: var(--background-secondary-dark);
+  opacity: 1; 
+  padding-left: 1rem;
+  padding-bottom: 5px;
+}
+
+.completed-audit__select {
+  position: relative;
+}
+
+select::-ms-expand {
+     display: none;
+}
+
+/* ----select button */
+
+.completed-audit__select .drop-down-menu {
+  width: 13em;
+}
+.completed-audit__select .drop-down-menu
+.drop-down-button
+{
+  padding: 10px 15px 10px 20px;
+}
+
+.completed-audit__select .drop-down-menu .drop-down-button::after{
+  right: 20px;
+}
+
+.completed-audit__charts{
+  display: flex;
+  grid-column: span 2;
+}
+
+.completed-audit__score_total {
+  width: 50%;
+  font-family: "CiscoSans Light", sans-serif;
+  color: var(--text-color-primary);
+  font-size: 4rem;
+  padding-left: 0.25em;
+}
+
+.completed-audit__questions-header{
+  display: grid;
+  grid-template-columns: 13rem 11rem 1fr;
+  font-size: 26px;
+  padding-bottom: 1em;
+}
+
+.completed-audit__questions-header h2{
+  font-weight: 700;
+  color: var(--text-color-secondary);
+  font-size: 26px;
+}
+
+.completed-audit__container {
+  display: grid;
+  grid-template-rows: 1fr;
+  padding: 3em 1.5em;
+  border-bottom: 1px solid var(--text-color-secondary);
+}
+
+
+
+

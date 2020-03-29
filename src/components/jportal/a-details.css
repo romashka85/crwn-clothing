@@ -1,0 +1,57 @@
+.audit-item-details{
+  
+}
+.audit-item-details__row {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 13rem 11rem 1fr;
+  border-top: 1px solid var(--text-color-secondary);
+  font-size: 20px;
+  color: var(--text-color-primary);
+}
+
+.audit-item-details__row_comment{
+  
+}
+
+.audit-item-details__row > div:nth-child(6),
+.audit-item-details__row > div:nth-child(9),
+.audit-item-details__row > div:first-child {
+  color: var(--text-color-secondary);
+}
+.audit-item-details__row > div {
+  padding: 0.3em 0;
+}
+.audit-item-details__row > div:nth-child(9) {
+  line-height: 1.3;
+}
+
+.dispute-question {
+  display: flex;
+  align-items: center;
+  height: 3.2em;
+}
+
+.dispute-question textarea{
+  width: 60%;
+  height: 100%;
+  font-size: 18px;
+}
+
+.audit-item-details__info {
+  height: 3.2rem;
+  cursor: unset;
+  padding: 0 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: blue;
+  color: var(--text-color-white);
+  background: var(--background-secondary);
+  font-size: 12px;
+  font-family: "CiscoSans Regular", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+}
+
+
