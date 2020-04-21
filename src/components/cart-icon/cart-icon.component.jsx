@@ -19,7 +19,7 @@ const mapDispatchToProps = dispatch => ({
   toggleCartHidden: () => dispatch(toggleCartHidden())
 })
 
-const mapStateToProps = (state) => ({
+const mapStateToProps = state => ({
   itemCount: selectCartItemsCount(state)
 })
 
